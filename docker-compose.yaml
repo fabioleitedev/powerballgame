@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  redis-dis:
+    image: redis:3.0
+    container_name: redis-dis
+    restart: unless-stopped
+    command: redis-server --appendonly yes --requirepass localpass
+    ports:
+      - 6379:6379
+    volumes:
+      - ../_data/redis-dis:/data

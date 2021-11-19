@@ -1,0 +1,48 @@
+[
+  {
+    "whiteBalls": 0,
+    "powerBall": true,
+    "prize": 4
+  },
+  {
+    "whiteBalls": 1,
+    "powerBall": true,
+    "prize": 4
+  },
+  {
+    "whiteBalls": 2,
+    "powerBall": true,
+    "prize": 7
+  },
+  {
+    "whiteBalls": 3,
+    "powerBall": false,
+    "prize": 7
+  },
+  {
+    "whiteBalls": 3,
+    "powerBall": true,
+    "prize": 100
+  },
+  {
+    "whiteBalls": 4,
+    "powerBall": false,
+    "prize": 100
+  },
+  {
+    "whiteBalls": 4,
+    "powerBall": true,
+    "prize": 50000
+  },
+  {
+    "whiteBalls": 5,
+    "powerBall": false,
+    "prize": 1000000
+  },
+  {
+    "whiteBalls": 5,
+    "powerBall": true,
+    "prize": 1000000,
+    "multiplier": true
+  }
+]
